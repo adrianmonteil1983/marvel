@@ -1,6 +1,10 @@
 const htmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/marvel/'
+    : '/'
+  ,
   module: {
     rules: [
       // ... other rules omitted
