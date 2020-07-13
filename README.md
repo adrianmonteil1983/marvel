@@ -1,24 +1,10 @@
 # avanger
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* Marvel app which fetch data.
+* Each card can be clicked and give more information about the character.
+* Technologies used:
+   * Vue.js
+   * Vuex
+   * Vue router
+   * css grid
+   * flexbox
